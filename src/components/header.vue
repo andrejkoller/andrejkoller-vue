@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import Preloader from "@/components/preloader";
-import Logo from "@/components/logo";
-import NavLang from "@/components/nav-lang";
+import Preloader from "@/components/preloader.vue";
+import Logo from "@/components/logo.vue";
+import NavLang from "@/components/nav-lang.vue";
 </script>

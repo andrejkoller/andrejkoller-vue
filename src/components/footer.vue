@@ -78,8 +78,8 @@
 <script setup>
 import { onMounted, useTemplateRef } from "vue";
 import { Music, Coffee, Popcorn } from "lucide-vue-next";
-import Roots from "@/components/roots";
-import Grass from "@/components/grass";
+import Roots from "@/components/roots.vue";
+import Grass from "@/components/grass.vue";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 

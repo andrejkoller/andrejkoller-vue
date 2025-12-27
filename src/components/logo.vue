@@ -2,7 +2,7 @@
   <div class="text-3xl">
     <a href="/" accesskey="d" class="after:hidden">
       <span class="inline-block mt-9 font-alternateGothic2 uppercase"
-        >Dan Alcaide</span
+        >Andrej Koller</span
       >
       <span class="anim-init-colibri-logo absolute">
         <Hummingbird />
@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import Hummingbird from "@/components/hummingbird";
+import Hummingbird from "@/components/hummingbird.vue";
 </script>
 
 <style scoped>

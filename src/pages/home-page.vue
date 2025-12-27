@@ -105,8 +105,8 @@
 <script setup>
 import { onMounted, useTemplateRef } from "vue";
 import Garden from "@/components/garden.vue";
-import Projects from "@/components/projects";
-import Skills from "@/components/skills";
+import Projects from "@/components/projects.vue";
+import Skills from "@/components/skills.vue";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

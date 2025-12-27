@@ -45,9 +45,9 @@
 
 <script setup>
 import { onMounted, ref, useTemplateRef } from "vue";
-import Grass from "@/components/grass";
-import Flies from "@/components/flies";
-import Hummingbird from "@/components/hummingbird";
+import Grass from "@/components/grass.vue";
+import Flies from "@/components/flies.vue";
+import Hummingbird from "@/components/hummingbird.vue";
 import { gsap } from "gsap";
 
 const showHummingbird = ref(false);

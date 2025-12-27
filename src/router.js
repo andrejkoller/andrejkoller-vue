@@ -2,7 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 
 import FullLayout from "@/layouts/full-layout.vue";
 import MinimalLayout from "@/layouts/minimal-layout.vue";
-import HomePage from "@/pages/HomePage.vue";
+import HomePage from "@/pages/home-page.vue";
 import NotFoundPage from "@/pages/not-found-page.vue";
 
 const routes = [

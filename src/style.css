@@ -1,0 +1,107 @@
+@import url("assets/fonts.css") layer(base);
+
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Open Sans", "sans-serif";
+  --font-alternateGothic2: "Alternate-Gothic2", "sans-serif";
+
+  --breakpoint-xs: 425px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 1700px;
+  --breakpoint-4xl: 2000px;
+
+  --color-gray: #9e9e9e;
+  --color-gray-50: #f9f9f9;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #eeeeee;
+  --color-gray-300: #e0e0e0;
+  --color-gray-400: #bdbdbd;
+  --color-gray-500: #9e9e9e;
+  --color-gray-600: #888888;
+  --color-gray-700: #616161;
+  --color-gray-800: #424242;
+  --color-gray-900: #212121;
+
+  --background-image-colibri-frames: url("/images/colibri_frames.svg");
+  --background-image-horizon: url("/images/horizon.svg");
+  --background-image-horizon-down: url("/images/horizon_down.svg");
+  --background-image-circles: url("/images/circles.svg");
+  --background-image-plants: url("/images/plants.svg");
+  --background-image-tree: url("/images/tree.svg");
+  --background-image-tree-windy: url("/images/tree-windy.svg");
+  --background-image-grass: url("/images/grass.svg");
+  --background-image-grass-plants: url("/images/grass-plants.svg");
+  --background-image-grass-tree: url("/images/grass-tree.svg");
+
+  --ease-out-back: cubic-bezier(0.87, -0.41, 0.19, 1.44);
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  @variant sm {
+    padding-inline: 1.2rem;
+  }
+  @variant md {
+    padding-inline: 1.4rem;
+  }
+  @variant lg {
+    padding-inline: 1.6rem;
+  }
+  @variant xl {
+    padding-inline: 2.2rem;
+  }
+}
+
+@utility anim-underline {
+  @apply transition-all after:block after:relative after:z-20 after:w-0 hover:after:w-full after:h-[1px] after:bg-gray-800 after:transition-all after:duration-500 after:ease-out-back;
+}
+
+@utility border-circles {
+  @apply relative after:bg-circles after:absolute after:z-10 after:-bottom-[100px] after:w-full after:h-[200px] after:bg-[length:auto_100%] after:bg-repeat-x;
+}
+
+@layer base {
+  html {
+    @apply bg-black;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    scrollbar-color: gray black;
+  }
+
+  body {
+    @apply overflow-hidden bg-white text-black font-light;
+  }
+
+  a {
+    @apply anim-underline inline-block no-underline font-normal;
+  }
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}

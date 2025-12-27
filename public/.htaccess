@@ -1,0 +1,17 @@
+#
+# Apache settings.
+#
+
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  # Redirect all requests to index.html
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.+)$ index.html [QSA,L]
+</IfModule>
+
+# Don't show directory listings.
+Options -Indexes

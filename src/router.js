@@ -1,5 +1,4 @@
 import { createWebHistory, createRouter } from "vue-router";
-
 import FullLayout from "@/layouts/full-layout.vue";
 import MinimalLayout from "@/layouts/minimal-layout.vue";
 import HomePage from "@/pages/home-page.vue";
@@ -7,7 +6,7 @@ import NotFoundPage from "@/pages/not-found-page.vue";
 
 const routes = [
   {
-    path: "/:lang(en|es)?",
+    path: "/:lang(en|ru)?",
     component: FullLayout,
     children: [
       {

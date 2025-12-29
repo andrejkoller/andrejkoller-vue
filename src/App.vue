@@ -21,7 +21,7 @@ watchEffect(() => {
     htmlAttrs: {
       lang: t("languages.code"),
     },
-    title: `Dan Alcaide · ${t("meta.title")}`,
+    title: `Andrej Koller · ${t("meta.title")}`,
     meta: [
       {
         name: "description",
@@ -29,7 +29,7 @@ watchEffect(() => {
       },
       {
         property: "og:title",
-        content: `Dan Alcaide · ${t("meta.title")}`,
+        content: `Andrej Koller · ${t("meta.title")}`,
       },
       {
         property: "og:description",

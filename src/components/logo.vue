@@ -4,16 +4,9 @@
       <span class="inline-block mt-9 font-alternateGothic2 uppercase"
         >Andrej Koller</span
       >
-      <span class="anim-init-colibri-logo absolute">
-        <Hummingbird />
-      </span>
     </a>
   </div>
 </template>
-
-<script setup>
-import Hummingbird from "@/components/hummingbird.vue";
-</script>
 
 <style scoped>
 .overlay[data-loaded="true"] .anim-init-colibri-logo {

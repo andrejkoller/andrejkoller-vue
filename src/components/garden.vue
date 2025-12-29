@@ -1,13 +1,6 @@
 <template>
   <div class="garden relative -bottom-0.5">
     <div
-      ref="refColibri"
-      v-show="showHummingbird"
-      class="cursor-colibri fixed z-30 top-0 left-0 scale-50 origin-top-left pointer-events-none"
-    >
-      <Hummingbird />
-    </div>
-    <div
       @mousemove="gardenMove($event)"
       @mouseenter="gardenEnter($event)"
       @mouseleave="gardenOut($event)"
@@ -47,7 +40,6 @@
 import { onMounted, ref, useTemplateRef } from "vue";
 import Grass from "@/components/grass.vue";
 import Flies from "@/components/flies.vue";
-import Hummingbird from "@/components/hummingbird.vue";
 import { gsap } from "gsap";
 
 const showHummingbird = ref(false);

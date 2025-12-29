@@ -6,69 +6,25 @@
   },
   "meta": {
     "title": "Web Developer",
-    "description": "Web Developer who loves music and movies."
-  },
-  "aria": {
-    "awwwardsLink": "Go to the Skizophonic candidature on Awwwards",
-    "skizophonicLink": "Go to the Skizophonic website",
-    "timelineLink": "See more about this timeline point"
+    "description": "Web Developer who loves music."
   },
   "preloader": {
     "loading": "loading"
   },
   "yo": {
-    "title": "Full-Stack Developer<br> who loves music & cinema.",
+    "title": "Full-Stack Developer<br> who loves music.",
     "text1": "Web Developer who has worked as a Web and Graphic Designer on several projects being a freelance or part of a multidisciplinary team.",
     "text2": "Knowledge and supervision of the usability, accessibility, aesthetic, interactivity and communication in the design process.",
-    "text3": "A musician who loves music and has been making noise with a guitar for over 25 years.",
-    "text4": "Received an Honorable Mention on {0} for the {1} website.",
-    "timeline": {
-      "13": {
-        "text": "When I was 13 I had",
-        "linkText": "my first kiss"
-      },
-      "16": {
-        "text": "When I was 16 I bought my",
-        "linkText": "Fender Stratocaster"
-      },
-      "18": {
-        "text": "When I was 18 I installed",
-        "linkText": "Photoshop"
-      },
-      "21": {
-        "text": "When I was 21 I founded the music band",
-        "linkText": "Skizophonic"
-      },
-      "23": {
-        "text": "When I was 23 I got my first job as a Developer and Web Designer.",
-        "linkText": ""
-      },
-      "27": {
-        "text": "When I was 27 I uploaded",
-        "linkText": "my first portfolio"
-      },
-      "33": {
-        "text": "When I was 33 I moved to",
-        "linkText": "Belfast",
-        "text2": "to live an adventure"
-      }
-    }
+    "text3": "A musician who loves music and has been making noise with piano for over 6 years."
   },
   "projects": {
     "title": "Developed for"
   },
   "skills": {
-    "title": "Worked with",
-    "list": {
-      "coffee": "Coffee"
-    }
+    "title": "Worked with"
   },
   "footer": {
-    "social": "Say hi",
-    "text": "Hummingbirds are birds native to the Americas and constitute the biological family Trochilidae which are among the smallest of birds. They are known as hummingbirds because of the humming sound created by their beating wings which flap at high frequencies audible to humans.",
-    "linkText": "https://en.wikipedia.org/wiki/Hummingbird",
-    "code": "Code on Github",
-    "ingredients": "Made with"
+    "text": "If you want to work with me or just say hi, you can reach me via email or on my social media."
   },
   "404": {
     "title": "404 · Page not found",

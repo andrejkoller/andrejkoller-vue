@@ -131,6 +131,6 @@ const options = {
       },
     },
   },
-  detectRetina: false, // true, makes Firefox laggy
+  detectRetina: false,
 };
 </script>

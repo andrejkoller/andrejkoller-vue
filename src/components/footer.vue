@@ -14,62 +14,29 @@
     <div class="container">
       <div class="relative z-10 lg:w-1/2 py-20 lg:py-40">
         <p>
-          {{ $t("footer.social") }}
-          <a href="mailto:info@andrejkoller.com" aria-label="Say hi via email"
-            >info@andrejkoller.com</a
+          <a
+            href="mailto:andrejkoller@outlook.com"
+            target="_blank"
+            aria-label="Say hi via email"
+            >andrejkoller@outlook.com</a
           >
           ·
           <a
-            href="https://github.com/skabeche"
+            href="https://github.com/andrejkoller"
+            target="_blank"
             aria-label="Check my Github profile"
             >Github</a
           >
           ·
           <a
-            href="https://www.linkedin.com/in/danalc"
+            href="https://www.linkedin.com/in/andrejkoller"
+            target="_blank"
             aria-label="Check my Linkedin profile"
             >Linkedin</a
           >
         </p>
-        <p>
-          {{ $t("footer.text") }}
-          <a
-            :href="$t('footer.linkText')"
-            target="_blank"
-            aria-label="Read more about hummingbirds on Wikipedia"
-            >Wikipedia</a
-          >.
-        </p>
-        <p>
-          &copy;{{ currentYear }} Dan Alcaide ·
-          <a href="https://github.com/skabeche/andrejkoller-vue">{{
-            $t("footer.code")
-          }}</a>
-          · {{ $t("footer.ingredients") }}
-          <span class="inline-flex gap-x-2 [&_svg]:inline-block">
-            <a
-              href="https://youtu.be/pDIDo4kJIsU"
-              target="_blank"
-              aria-label="I like music"
-            >
-              <Music :size="20" :stroke-width="1.75" />
-            </a>
-            <a
-              href="https://www.amazon.co.uk/Morning-Vietnam-Fresh-Promptly-Delivered/dp/B00TO0PCNM"
-              target="_blank"
-              aria-label="I like coffee"
-            >
-              <Coffee :size="20" :stroke-width="1.75" />
-            </a>
-            <a
-              href="https://www.imdb.com/title/tt0082198"
-              target="_blank"
-              aria-label="I like movies"
-            >
-              <Popcorn :size="20" :stroke-width="1.75" />
-            </a>
-          </span>
-        </p>
+        <p>{{ $t("footer.text") }}</p>
+        <p>&copy;{{ currentYear }} Andrej Koller</p>
       </div>
     </div>
   </footer>
@@ -77,7 +44,6 @@
 
 <script setup>
 import { onMounted, useTemplateRef } from "vue";
-import { Music, Coffee, Popcorn } from "lucide-vue-next";
 import Roots from "@/components/roots.vue";
 import Grass from "@/components/grass.vue";
 import { gsap } from "gsap";

@@ -6,7 +6,7 @@ import NotFoundPage from "@/pages/not-found-page.vue";
 
 const routes = [
   {
-    path: "/:lang(en|ru)?",
+    path: "/:lang(en|de)?",
     component: FullLayout,
     children: [
       {

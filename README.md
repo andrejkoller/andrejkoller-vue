@@ -66,3 +66,7 @@ The site supports multiple languages:
 Language files are located in `src/locales/`.
 
 ## 📸 Screenshots
+<img width="1920" height="1080" alt="Screenshot 1" src="https://github.com/user-attachments/assets/8f218363-1ddf-4f3b-a703-cf872cc188a8" />
+<img width="1920" height="1080" alt="Screenshot 2" src="https://github.com/user-attachments/assets/1835fe0e-5b96-4f0e-b17f-5845fedd849e" />
+<img width="1920" height="1080" alt="Screenshot 3" src="https://github.com/user-attachments/assets/8f449cb5-b1a7-44e9-af5f-a30c1ca02f99" />
+

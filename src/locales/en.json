@@ -1,8 +1,8 @@
 {
   "languages": {
     "code": "en",
-    "es": "Spanish",
-    "en": "English"
+    "en": "English",
+    "de": "German"
   },
   "meta": {
     "title": "Web Developer",
@@ -18,7 +18,7 @@
     "text3": "A musician who loves music and has been making noise with piano for over 6 years."
   },
   "projects": {
-    "title": "Developed for"
+    "title": "Projects"
   },
   "skills": {
     "title": "Worked with"

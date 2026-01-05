@@ -1,0 +1,34 @@
+{
+    "languages": {
+        "code": "de",
+        "en": "Englisch",
+        "de": "Deutsch"
+    },
+    "meta": {
+        "title": "Webentwickler",
+        "description": "Webentwickler mit Leidenschaft für Musik."
+    },
+    "preloader": {
+        "loading": "lädt"
+    },
+    "yo": {
+        "title": "Full-Stack Entwickler<br> mit Leidenschaft für Musik.",
+        "text1": "Webentwickler mit Erfahrung in Web- und Grafikdesign – sowohl als Freelancer als auch im interdisziplinären Team.",
+        "text2": "Kenntnisse in Usability, Barrierefreiheit, Ästhetik, Interaktion und Kommunikation im Designprozess.",
+        "text3": "Musiker mit Leidenschaft für Musik und über 6 Jahren Erfahrung am Klavier."
+    },
+    "projects": {
+        "title": "Projekte"
+    },
+    "skills": {
+        "title": "Erfahrung mit"
+    },
+    "footer": {
+        "text": "Wenn du mit mir arbeiten möchtest oder einfach Hallo sagen willst, erreichst du mich per E-Mail oder über meine Social-Media-Kanäle."
+    },
+    "404": {
+        "title": "404 · Seite nicht gefunden",
+        "text": "Ups! Die Seite, die du suchst, existiert nicht und es wird dunkel",
+        "linkText": "Zur Startseite"
+    }
+}
